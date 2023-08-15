@@ -1,8 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 
+void _putchar(char c) {
+    putchar(c);
+}
 
-int main()
-{
-	putchar("\n");
-	return 0;
+int main() {
+    _putchar('putchar',\n');
+
+    return 0;
 }
